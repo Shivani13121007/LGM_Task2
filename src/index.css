@@ -1,13 +1,117 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Mulish', sans-serif;
+  font-weight: 600;
+}
+.navbar_bg{
+  background-color: #fff !important;
+}
+.navbar-brand{
+  font-size: 1.9rem !important;
+  color: #565387 !important;
+  font-weight: 600 !important;
+}
+.navbar .a{
+  font-size: 1.3rem;
+  text-transform: capitalize;
+  color: #565387;
+}
+.menu_active{
+  border-bottom: 2px solid #3498db !important;
+  color: #3498db !important;
+}
+#header{
+  height:80vh;
+  width: 100%;
+  margin-top: 70px;
+}
+#header h1{
+  margin: 0 0 10px 0;
+  font-size: 30px;
+  font-weight: 700;
+  color: #484848;
+}
+#header .span{
+  color: #3498db !important;
+  font-size: 35px;
+}
+#header .btn_get_started{
+  padding: 10px 30px;
+  font-weight: 700;
+  display: inline-block;
+  border: 2px solid #3498db;
+  border-radius: 50px;
+  font-size: 16px;
+  text-decoration: none;
+  transition: .5s;
+}
+#header .btn_get_started:hover{
+  color: #fff;
+  background: #3498db;
+}
+#header img{
+  text-align: right;
+}
+#header .animated{
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+@keyframes up-down{
+  0%{
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(-10px);
+  }
+}
+@-webkit-keyframes up-down{
+  0%{
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(-10px);
+  }
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.card_container{
+  border: 2px solid #3498db !important;
+  border-radius: 10px !important;
+}
+.card_container h4{
+  font-size: 1rem !important;
+  font-weight: 600;
+  color: #3498db !important;
+}
+.card_container p{
+  color: #484848 !important;
+  font-size: 1rem !important;
+}
+.spinner_style{
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  height: 60vh !important;
+  width: 100%;
+}
+
+@media(max-width:940px)
+{
+  .card_container p{
+    font-size: 0.8rem !important;
+    /* margin-left: 0 !important; */
+  }
+ 
+}
+@media(max-width:404px)
+{
+  .card_container p{
+    font-size: 0.6rem !important;
+    margin-left: 0 !important;
+  }
+  .card_container h4{
+    margin-left: 0 !important;
+  }
 }
