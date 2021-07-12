@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/LGM_Task2/static/css/main.2cdab821.chunk.css",
+    "main.js": "/LGM_Task2/static/js/main.2470327a.chunk.js",
+    "main.js.map": "/LGM_Task2/static/js/main.2470327a.chunk.js.map",
+    "runtime-main.js": "/LGM_Task2/static/js/runtime-main.a91d5585.js",
+    "runtime-main.js.map": "/LGM_Task2/static/js/runtime-main.a91d5585.js.map",
+    "static/css/2.081f420c.chunk.css": "/LGM_Task2/static/css/2.081f420c.chunk.css",
+    "static/js/2.daedc60f.chunk.js": "/LGM_Task2/static/js/2.daedc60f.chunk.js",
+    "static/js/2.daedc60f.chunk.js.map": "/LGM_Task2/static/js/2.daedc60f.chunk.js.map",
+    "static/js/3.ebd7c688.chunk.js": "/LGM_Task2/static/js/3.ebd7c688.chunk.js",
+    "static/js/3.ebd7c688.chunk.js.map": "/LGM_Task2/static/js/3.ebd7c688.chunk.js.map",
+    "index.html": "/LGM_Task2/index.html",
+    "static/css/2.081f420c.chunk.css.map": "/LGM_Task2/static/css/2.081f420c.chunk.css.map",
+    "static/css/main.2cdab821.chunk.css.map": "/LGM_Task2/static/css/main.2cdab821.chunk.css.map",
+    "static/js/2.daedc60f.chunk.js.LICENSE.txt": "/LGM_Task2/static/js/2.daedc60f.chunk.js.LICENSE.txt",
+    "static/media/headerimg.1a8e440b.svg": "/LGM_Task2/static/media/headerimg.1a8e440b.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a91d5585.js",
+    "static/css/2.081f420c.chunk.css",
+    "static/js/2.daedc60f.chunk.js",
+    "static/css/main.2cdab821.chunk.css",
+    "static/js/main.2470327a.chunk.js"
+  ]
+}
